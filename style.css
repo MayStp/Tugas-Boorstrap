@@ -1,0 +1,43 @@
+body {
+    background: #eddfbf;
+}
+
+h1{
+    color: white;
+}
+header p{
+    color: white;
+}
+
+
+
+.meta-post{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.header header {
+    background-color: #44326b;
+    padding: 10px 20px;
+}
+
+nav.menus{
+    background-color: #ff4655;
+    padding: 10px;
+}
+
+nav.menus ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav.menus ul li {
+    display: inline-block;
+}
+
+nav.menus ul li a {
+    display: block;
+    padding: 3px 7px;
+    color: #ffff;
+    text-decoration: none;
+}

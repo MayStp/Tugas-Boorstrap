@@ -1,0 +1,31 @@
+@media (min-width: 992px) {
+
+.navbar .navbar-nav {
+        flex-direction: row;
+}
+
+  
+.navbar .navbar-collapse {
+justify-content: flex-end;
+}
+
+.navbar .navbar-nav .nav-item {
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.navbar .navbar-nav .dropdown-menu {
+position: absolute;
+right: 0;
+left: auto;
+}
+
+.dropdown-toggle::after {
+display: none;
+}
+
+.dropdown-menu {
+margin-right: 0;
+margin-left: auto;
+}
+} 
